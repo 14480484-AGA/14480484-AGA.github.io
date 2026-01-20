@@ -1,26 +1,40 @@
-.contenedor{
-   display: flex;
-   flex-direction: row;
-    
+header{
+text-align: center;
+background-color: darkseagreen;
 }
-section{
+body{
+    background-color: darkseagreen;
     display: flex;
     flex-direction: column;
+height: 100vmin;
+}
+.contenedor{
+    display:flex;
+    flex-direction: column;
+}
+
+section{
    
-    align-items: center;
+   
+  
  
-   flex-grow: 8;
+   height: 100vh;
    background-color: salmon;
    padding:10px;
  
    
 }
 article{
-    width: 20%;
+    
    background-color: blanchedalmond;
     gap: 5px;
    
 }
 h2{
-    background-color: azure;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+ul{
+    list-style: none;
 }
